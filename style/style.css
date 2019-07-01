@@ -1,31 +1,54 @@
 body {
     margin: 0;
     font-family: 'Rubik', sans-serif;
+
 }
 
 .header {
-    background-color: red;
+background-color: #FFFFFF;
 display: flex;
 flex-direction: column;
+justify-content: center;
 align-items: center;
+position: fixed;
+top: 0px;
+left: 0px;
+width: 100%;
+z-index: 1;
+padding-top: 10px;
+padding-bottom: 13px;
 
 }
 
 .logo {
+
     width: 155px;
+    margin-bottom: 10px;
 }
 
 .menu {
-    font-size: 16px;
+font-size: 16px;
+box-sizing: border-box;
+
+}
+a {
+  
+    text-decoration: none;
     color: #4a4a4a;
+    padding: 10px;
 }
 
 .box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
 background-color: #3CDBC0;
 height: 100vh;
 }
 
 h1 {
+    font-size: bold;
     font-size: 30px;
-  
+  text-align: center;
+  color: #FFFFFF;
 }
