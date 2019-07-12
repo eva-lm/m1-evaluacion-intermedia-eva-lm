@@ -1,88 +1,71 @@
-*{
-    box-sizing: border-box;
+* {
+  box-sizing: border-box;
 }
-
 body {
-    margin: 0;
-    font-family: 'Rubik', sans-serif;
-    }
-
+  margin: 0;
+  font-family: "Rubik", sans-serif;
+}
 .header {
-background-color: #FFFFFF;
-display: flex;
-flex-direction: column;
-justify-content: center;
-align-items: center;
-position: fixed;
-top: 0px;
-width: 100%;
-z-index: 1;
-padding-top: 20px;
-min-height: 70px;
-
+  background-color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: fixed;
+  top: 0px;
+  width: 100%;
+  z-index: 1;
+  padding-top: 20px;
 }
-
 .logo {
-
-    width: 155px;
-    margin-bottom: 10px;
+  width: 155px;
+  margin-bottom: 10px;
 }
-
 .menu {
-display: flex;
-justify-content: space-between;    
-font-size: 16px;
-padding: 0px;
-width: 155px;
+  font-size: 16px;
 }
 .menu__list {
-    list-style: none;
+  list-style: none;
+  min-height: 50px;
+  display: flex;
+  justify-content: space-between;
+  padding: 0px;
+  width: 155px;
 }
 .menu__item {
-  
-    text-decoration: none;
-    color: #4a4a4a;
-   
+  text-decoration: none;
+  text-transform: uppercase;
+  color: #4a4a4a;
 }
 .main__list {
-    list-style: none;
-    font-weight: bold;
-    font-size: 30px;
-    text-align: center;
-    color: #FFFFFF;
+  list-style: none;
+  font-weight: bold;
+  font-size: 30px;
+  text-align: center;
+  color: #ffffff;
 }
 .box {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-background-color: #3CDBC0;
-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #3cdbc0;
+  height: 100vh;
 }
-
-
-
-@media all and (min-width:768px){
-
-    .header {
-        flex-direction: row;
-        justify-content: space-between;
-        padding-left: 30px;
-        padding-right: 30px;
-       
-        
-        }
-        
-     
-        
-        .menu {
-        font-size: 16px;
-        text-align: right;
-       
-        
-        }
-        .main__list {
-          
-            font-size: 40px;
-          
-        }
+.main__item {
+  text-transform: capitalize;
+}
+@media all and (min-width: 768px) {
+  .header {
+    flex-direction: row;
+    justify-content: space-between;
+    padding-left: 30px;
+    padding-right: 30px;
+  }
+  .menu {
+    font-size: 16px;
+    text-align: right;
+  }
+  .main__list {
+    font-size: 40px;
+  }
 }
