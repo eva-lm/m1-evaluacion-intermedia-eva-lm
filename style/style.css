@@ -32,10 +32,11 @@ padding-bottom: 13px;
 display: flex;
 justify-content: space-between;    
 font-size: 16px;
-padding: 0px;
+padding: 0px;∫
 width: 155px;
-
-
+}
+.menu__list {
+    list-style: none;
 }
 a {
   
@@ -43,7 +44,13 @@ a {
     color: #4a4a4a;
    
 }
-
+.main__list {
+    list-style: none;
+    font-weight: bold;
+    font-size: 30px;
+    text-align: center;
+    color: #FFFFFF;
+}
 .box {
     display: flex;
     justify-content: center;
@@ -52,12 +59,7 @@ background-color: #3CDBC0;
 height: 100vh;
 }
 
-h1 {
-    font-weight: bold;
-    font-size: 30px;
-  text-align: center;
-  color: #FFFFFF;
-}
+
 
 @media all and (min-width:768px){
 
