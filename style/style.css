@@ -18,7 +18,7 @@ top: 0px;
 width: 100%;
 z-index: 1;
 padding-top: 20px;
-padding-bottom: 13px;
+min-height: 70px;
 
 }
 
@@ -32,13 +32,13 @@ padding-bottom: 13px;
 display: flex;
 justify-content: space-between;    
 font-size: 16px;
-padding: 0px;∫
+padding: 0px;
 width: 155px;
 }
 .menu__list {
     list-style: none;
 }
-a {
+.menu__item {
   
     text-decoration: none;
     color: #4a4a4a;
@@ -64,7 +64,6 @@ height: 100vh;
 @media all and (min-width:768px){
 
     .header {
-        display: flex;
         flex-direction: row;
         justify-content: space-between;
         padding-left: 30px;
@@ -81,7 +80,7 @@ height: 100vh;
        
         
         }
-        h1 {
+        .main__list {
           
             font-size: 40px;
           
