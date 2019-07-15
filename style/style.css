@@ -45,15 +45,21 @@ body {
   color: #ffffff;
 }
 .box {
+  padding-top: 115px;
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
   background-color: #3cdbc0;
   height: 100vh;
 }
-.main__item {
-  text-transform: capitalize;
+.main__title{
+  text-align: center;
+  width: 235px;
+  font-size: 30px;
+  color: #ffffff;
 }
+
 @media all and (min-width: 768px) {
   .header {
     flex-direction: row;
